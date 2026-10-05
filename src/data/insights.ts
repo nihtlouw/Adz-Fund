@@ -82,3 +82,7 @@ export function getPublishedInsights() {
     (a, b) => +new Date(b.publishedAt) - +new Date(a.publishedAt),
   );
 }
+
+export function getInsight(slug: string) {
+  return getPublishedInsights().find((item) => item.slug === slug);
+}
