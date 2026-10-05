@@ -21,8 +21,8 @@ function TeamPage() {
     <SiteLayout>
       <PageHero
         eyebrow="Team"
-        title="People, named only when they can be named."
-        description="This page will hold approved portraits and biographies. No individuals have been fabricated."
+        title="The team behind the allocation."
+        description="Four core roles run allocation, selection, sizing and reporting for the portfolio."
       />
       <TeamGrid />
       <CtaBand />

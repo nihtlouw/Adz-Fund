@@ -20,8 +20,8 @@ export function InsightGrid({ limit }: { limit?: number }) {
       <Container>
         <SectionHeading
           eyebrow="Insights"
-          title="Notes on capital, time, and partnership."
-          description="Articles marked Placeholder are layout samples. They are not official firm views."
+          title="Notes on digital assets, equities and gold."
+          description="Short, plain-language notes on how each sleeve of the portfolio works."
         />
         <div className="mt-14 grid gap-10 lg:grid-cols-3">
           {items.map((item) => (

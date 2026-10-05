@@ -2,22 +2,22 @@ export const PHILOSOPHY = [
   {
     id: "long-term",
     title: "Long-Term Perspective",
-    body: "[INVESTMENT THESIS] Capital is allocated with a multi-year horizon. This card is a structural placeholder pending approved thesis language.",
+    body: "Capital is allocated with a multi-year horizon, so short-term noise does not drive the core holdings.",
   },
   {
     id: "underwriting",
-    title: "Disciplined Underwriting",
-    body: "[INVESTMENT THESIS] Opportunities are evaluated against a consistent underwriting standard. Replace with approved process language.",
+    title: "Disciplined Position Sizing",
+    body: "Every position and every sleeve has a size cap and an allowed range, so no single idea can dominate the portfolio.",
   },
   {
     id: "value",
-    title: "Value Creation",
-    body: "[INVESTMENT THESIS] Partnership after close is intended to support durable operating improvement. Replace with approved language.",
+    title: "Diversification by Design",
+    body: "Digital assets, Indonesian equities and gold are combined because they respond to different forces.",
   },
   {
     id: "partnership",
-    title: "Strategic Partnership",
-    body: "[INVESTMENT THESIS] Alignment with management teams and co-investors is treated as a core underwriting input. Replace with approved language.",
+    title: "Transparent Partnership",
+    body: "Reporting, terms and rebalancing decisions are explained clearly, so partners always know where they stand.",
   },
 ] as const;
 

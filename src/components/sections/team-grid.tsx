@@ -13,7 +13,7 @@ export function TeamGrid() {
         <SectionHeading
           eyebrow="Team"
           title="The people behind the firm."
-          description="Portraits and biographies are published only after they are approved for public disclosure. No names have been invented for this profile."
+          description="Four roles own each stage of the process. Names and portraits are added once approved for disclosure."
         />
         {members.length === 0 ? (
           <div className="mt-12 border border-dashed border-line bg-paper px-6 py-16 text-center sm:px-12">

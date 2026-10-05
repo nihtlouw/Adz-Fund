@@ -8,6 +8,7 @@ import { FocusAreaGrid } from "@/components/sections/focus-area-grid";
 import { InsightGrid } from "@/components/sections/insight-grid";
 import { InvestmentProcess } from "@/components/sections/investment-process";
 import { PerformanceChart } from "@/components/sections/performance-chart";
+import { Faq, InvestorJourney, KpiStrip, WhyUs } from "@/components/sections/highlights";
 import { Diversification } from "@/components/sections/diversification";
 import { PhilosophyCards } from "@/components/sections/philosophy-cards";
 import { PortfolioGrid } from "@/components/sections/portfolio-grid";
@@ -30,15 +31,19 @@ function Home() {
   return (
     <SiteLayout>
       <Hero />
+      <KpiStrip />
       <AboutSection compact />
+      <WhyUs />
       <PhilosophyCards />
       <FocusAreaGrid />
       <PerformanceChart />
       <Diversification />
       <InvestmentProcess />
       <PortfolioGrid />
+      <InvestorJourney />
       <TeamGrid />
       <InsightGrid limit={3} />
+      <Faq />
       <CtaBand />
       <ContactSection />
     </SiteLayout>

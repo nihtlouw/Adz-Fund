@@ -1,6 +1,5 @@
 import { FOCUS_AREAS } from "@/data/strategy";
 import { Container } from "@/components/ui/container";
-import { PlaceholderNote } from "@/components/ui/placeholder-note";
 import { SectionHeading } from "@/components/ui/section-heading";
 
 export function FocusAreaGrid() {
@@ -9,10 +8,9 @@ export function FocusAreaGrid() {
       <Container>
         <SectionHeading
           eyebrow="Focus Areas"
-          title="Where capital is intended to concentrate."
-          description="Sectors, geographies, and stages will be published here once they are approved for public disclosure."
+          title="Three asset classes, one portfolio."
+          description="Digital assets, Indonesian equities and gold, each with a clear role and a size limit."
         />
-        <PlaceholderNote className="mt-4" />
         <div className="mt-14 grid gap-8 lg:grid-cols-3">
           {FOCUS_AREAS.map((area) => (
             <article key={area.slug} className="flex flex-col">

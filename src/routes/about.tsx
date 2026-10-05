@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/layout/site-layout";
+import { InvestorJourney, WhyUs } from "@/components/sections/highlights";
 import { AboutSection } from "@/components/sections/about-section";
 import { CtaBand } from "@/components/sections/cta-band";
 import { PageHero } from "@/components/ui/page-hero";
@@ -22,10 +23,12 @@ function AboutPage() {
     <SiteLayout>
       <PageHero
         eyebrow="About"
-        title="An institutional profile, written with restraint."
+        title="A multi-asset fund built on discipline."
         description={SITE.description}
       />
       <AboutSection />
+      <WhyUs />
+      <InvestorJourney />
       <CtaBand />
     </SiteLayout>
   );

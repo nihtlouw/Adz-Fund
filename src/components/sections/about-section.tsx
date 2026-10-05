@@ -2,7 +2,6 @@ import { Link } from "@tanstack/react-router";
 import { SITE, VALUES } from "@/data/site";
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
-import { PlaceholderNote } from "@/components/ui/placeholder-note";
 import { SectionHeading } from "@/components/ui/section-heading";
 
 export function AboutSection({ compact = false }: { compact?: boolean }) {
@@ -13,9 +12,8 @@ export function AboutSection({ compact = false }: { compact?: boolean }) {
           <div className="lg:col-span-5">
             <SectionHeading
               eyebrow="The Firm"
-              title="We invest with a long-term perspective, disciplined underwriting, and a focus on sustainable value creation."
+              title="Three asset classes. One disciplined framework."
             />
-            <PlaceholderNote className="mt-6" />
             {compact ? (
               <Button asChild variant="outline" className="mt-10">
                 <Link to="/about">Read about the firm</Link>

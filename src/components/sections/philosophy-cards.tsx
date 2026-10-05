@@ -1,6 +1,5 @@
 import { PHILOSOPHY } from "@/data/strategy";
 import { Container } from "@/components/ui/container";
-import { PlaceholderNote } from "@/components/ui/placeholder-note";
 import { SectionHeading } from "@/components/ui/section-heading";
 
 export function PhilosophyCards() {
@@ -10,9 +9,8 @@ export function PhilosophyCards() {
         <SectionHeading
           eyebrow="Investment Philosophy"
           title="A consistent standard for how capital is committed."
-          description="These four ideas structure the public narrative. They are proposed labels, not verified claims, until approved thesis language is supplied."
+          description="Four principles guide how capital is allocated, sized and reported."
         />
-        <PlaceholderNote className="mt-4" />
         <div className="mt-14 grid gap-4 md:grid-cols-2">
           {PHILOSOPHY.map((item, index) => (
             <article

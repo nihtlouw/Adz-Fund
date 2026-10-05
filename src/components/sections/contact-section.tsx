@@ -1,7 +1,6 @@
 import { SITE } from "@/data/site";
 import { ContactForm } from "@/components/forms/contact-form";
 import { Container } from "@/components/ui/container";
-import { PlaceholderNote } from "@/components/ui/placeholder-note";
 import { SectionHeading } from "@/components/ui/section-heading";
 
 export function ContactSection() {
@@ -12,9 +11,8 @@ export function ContactSection() {
           <SectionHeading
             eyebrow="Contact"
             title="Start a confidential conversation."
-            description="Use this form for investor, founder, partnership, and media inquiries. Contact details below are placeholders until official channels are supplied."
+            description="Tell us about your goals and horizon. We will reply with the next steps for becoming a partner."
           />
-          <PlaceholderNote className="mt-4" />
           <dl className="mt-10 space-y-5 text-sm">
             <div>
               <dt className="text-xs font-semibold tracking-[0.16em] text-stone uppercase">Email</dt>

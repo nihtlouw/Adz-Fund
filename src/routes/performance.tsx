@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/layout/site-layout";
 import { CtaBand } from "@/components/sections/cta-band";
 import { Diversification } from "@/components/sections/diversification";
+import { Faq } from "@/components/sections/highlights";
 import { PerformanceChart } from "@/components/sections/performance-chart";
 import { PageHero } from "@/components/ui/page-hero";
 import { pageMeta } from "@/lib/seo";
@@ -27,6 +28,7 @@ function PerformancePage() {
       />
       <PerformanceChart />
       <Diversification />
+      <Faq />
       <CtaBand />
     </SiteLayout>
   );

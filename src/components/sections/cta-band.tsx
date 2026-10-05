@@ -9,11 +9,11 @@ export function CtaBand() {
         <div className="max-w-2xl">
           <p className="text-xs font-semibold tracking-[0.22em] uppercase">AzHcriel Capital</p>
           <h2 className="mt-4 font-display text-4xl leading-tight font-medium sm:text-5xl">
-            A conversation, not a campaign.
+            Ready to see how the allocation fits your goals?
           </h2>
         </div>
         <Button asChild size="lg" variant="inverse">
-          <Link to="/contact">Contact Us</Link>
+          <Link to="/contact">Request an Intro Call</Link>
         </Button>
       </Container>
     </section>

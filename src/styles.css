@@ -157,3 +157,19 @@
 .skip-link:focus {
   top: 1rem;
 }
+
+/* --- motion utilities --- */
+@keyframes marquee { to { transform: translateX(-50%); } }
+.marquee { display: flex; width: max-content; animation: marquee 34s linear infinite; }
+.marquee:hover { animation-play-state: paused; }
+@keyframes kenburns { from { transform: scale(1); } to { transform: scale(1.08); } }
+.kenburns { animation: kenburns 18s ease-in-out infinite alternate; }
+@keyframes pulse-dot { 0%, 100% { opacity: .4; transform: scale(1); } 50% { opacity: 1; transform: scale(1.5); } }
+.pulse-dot { animation: pulse-dot 2s ease-in-out infinite; }
+@keyframes float-y { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+.float-y { animation: float-y 6s ease-in-out infinite; }
+details.faq > summary { list-style: none; cursor: pointer; }
+details.faq > summary::-webkit-details-marker { display: none; }
+details.faq[open] .faq-plus { transform: rotate(45deg); }
+details.faq .faq-body { animation: fade-up .4s ease both; }
+@media (prefers-reduced-motion: reduce) { .marquee, .kenburns, .pulse-dot, .float-y { animation: none; } }

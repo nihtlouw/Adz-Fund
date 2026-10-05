@@ -11,7 +11,7 @@ export function PortfolioGrid() {
       <Container>
         <SectionHeading
           eyebrow="Portfolio"
-          title="Selected investments, disclosed with care."
+          title="Model holdings across the three sleeves."
         />
         {items.length === 0 ? (
           <div className="mt-12 border border-dashed border-line bg-cream px-6 py-16 text-center sm:px-12">

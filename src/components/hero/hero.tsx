@@ -4,6 +4,8 @@ import { SITE } from "@/data/site";
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
 import { track } from "@/lib/analytics";
+import { CountUp } from "@/components/ui/motion";
+import { SERIES } from "@/data/performance";
 
 export function Hero() {
   return (
@@ -49,8 +51,12 @@ export function Hero() {
               alt="Jakarta skyline at dusk with a rising growth line, Bitcoin and gold coins (placeholder artwork)"
               width={1200}
               height={1200}
-              className="aspect-[4/5] w-full object-cover sm:aspect-[5/6] lg:aspect-[4/5]"
+              className="kenburns aspect-[4/5] w-full object-cover sm:aspect-[5/6] lg:aspect-[4/5]"
             />
+            <div className="float-y absolute bottom-6 left-6 border border-white/15 bg-black/55 px-4 py-3 backdrop-blur">
+              <p className="flex items-center gap-2 text-[10px] tracking-[0.18em] text-stone-light uppercase"><i className="pulse-dot inline-block size-1.5 rounded-full bg-[#3ddc97]" />Simulated YTD · illustrative</p>
+              <p className="font-display text-3xl text-[#3ddc97]"><CountUp to={SERIES[0].values[4] - 100} decimals={1} signed suffix="%" /></p>
+            </div>
             <figcaption className="sr-only">
               Placeholder artwork representing digital assets, Indonesian equities and gold.
             </figcaption>

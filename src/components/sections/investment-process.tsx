@@ -1,6 +1,5 @@
 import { PROCESS } from "@/data/strategy";
 import { Container } from "@/components/ui/container";
-import { PlaceholderNote } from "@/components/ui/placeholder-note";
 import { SectionHeading } from "@/components/ui/section-heading";
 
 export function InvestmentProcess() {
@@ -9,11 +8,10 @@ export function InvestmentProcess() {
       <Container>
         <SectionHeading
           eyebrow="Investment Process"
-          title="A five-stage path from origination to ownership."
-          description="Each stage is editable. The labels below are a recommended structure until the firm’s actual process is supplied."
+          title="A five-stage path from allocation to reporting."
+          description="The same repeatable process applies to every sleeve of the portfolio."
           tone="dark"
         />
-        <PlaceholderNote className="mt-4 text-cream/45" />
         <ol className="mt-14 grid gap-0 border-t border-cream/15 lg:grid-cols-5">
           {PROCESS.map((stage) => (
             <li
