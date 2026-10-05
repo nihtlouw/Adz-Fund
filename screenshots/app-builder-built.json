@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "AzHcriel Capital · Investment Fund",
+      "hasCanvas": false,
+      "bodyTextLen": 6171,
+      "bodyTextHash": "bf860486c05d1e33ff3d3f67fe8204b47ae174b62e12d420350a035d44601f52",
+      "bodyTextPrefix": "Skip to content AZHCRIEL CAPITAL INVESTMENT FUND ABOUT STRATEGY ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "AzHcriel Capital · Investment Fund",
+      "hasCanvas": false,
+      "bodyTextLen": 6113,
+      "bodyTextHash": "c2e9b81195fbfbeb83cdea19417af99212a125ae4ea5263a33e3cf5667e33f07",
+      "bodyTextPrefix": "Skip to content AZHCRIEL CAPITAL INVESTMENT FUND AZHCRIEL CAPITA",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}
